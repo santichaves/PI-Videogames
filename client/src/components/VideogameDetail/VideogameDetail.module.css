@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+.detail {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1em;
+    
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(6, 0, 172);
+    width: 50%;
+    height: 50%;
+    padding: 1em;
+  }
+  
+  .game {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .img {
+    height: 42%;
+    width: 100%;
+  
+    box-shadow: -7px 0 0 0 #000000, 7px 0 0 0 #000000,
+      0 -7px 0 0 #000000, 0 7px 0 0 #000000;
+  }
+  
+  .card {
+    font-family: 'Press Start 2P', cursive;
+    margin-bottom: 2em;
+    height: auto;
+    width: 60em;
+    color: black;
+    backdrop-filter: blur(16px);
+    box-shadow: -7px 0 0 0 #000000, 7px 0 0 0 #000000,
+      0 -7px 0 0 #000000, 0 7px 0 0 #000000;
+  }
+  
+  .page {
+    position: static;
+    min-height: 100vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://imgs.search.brave.com/7DAIIAELDJ-oNN5TPkG0Gq90LmU1WwvfDBzgS_gpPoU/rs:fit:1200:1200:1/g:ce/aHR0cDovL3dhbGxw/YXBlci5vcmcuZXMv/d2FsbHMvMjAxNS8w/NC84YWU4NjM1YTUx/MDczOGEwMDYzNTlh/ZWMxY2ZmNmZkNS5q/cGc');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  .genres_platforms {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .name {
+    text-align: center;
+    font-size: larger;
+    border-style: solid;
+    border-top: unset;
+    border-left: unset;
+    border-right: unset;
+    padding-bottom: 0.75em;
+    border-width: 0.25em;
+  }
+  
+  .items {
+    display: flex;
+    flex-direction: row;
+    gap: 5em;
+  }
+  
+  .description {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    height: 50%;
+    width: 57.5em;
+    text-align: justify;
+  }
+  
+  .list {
+    width: 30em;
+    height: auto;
+  }
+  
+  .loader {
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    margin: 0 40%;
+    border-radius: 10px;
+  }
+  
+  .loader div {
+    width: 8%;
+    height: 24%;
+    background: rgb(128, 128, 128);
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    opacity: 0;
+    border-radius: 50px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    animation: fade458 1s linear infinite;
+  }
+  
+  @keyframes fade458 {
+    from {
+      opacity: 1;
+    }
+  
+    to {
+      opacity: 0.25;
+    }
+  }
+  
+ 
+  
+  

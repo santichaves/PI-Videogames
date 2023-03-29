@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+.container {
+  font-family: 'Press Start 2P', cursive;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1.5em;
+  background-image: url('https://imgs.search.brave.com/nfn3isoP1vBnMsbnA7Jxc8VYm02eASGpRwx11E5X5zo/rs:fit:1200:802:1/g:ce/aHR0cHM6Ly9jLndh/bGxoZXJlLmNvbS9w/aG90b3MvMzMvNWMv/U2VnYV92aWRlb19n/YW1lc19jcm9zc292/ZXItNjE0OTEuanBn/IWQ');
+  background-size: cover;
+  
+}
+.var{
+  margin-top: 5px;
+  height: 30px;
+  width: 200px;
+}
+.navLat{
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+  height: 80px;
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 1rem;
+  backdrop-filter: blur(13px);
+}
+.input {
+  cursor: pointer;
+}
+
+.fil{display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  border: 1px solid black;
+  height: 200px;
+  width: 300px;
+  backdrop-filter: blur(13px);
+  border-radius: 1rem;
+}
+.order {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  border: 1px solid black;
+  height: 300px;
+  width: 300px;
+  backdrop-filter: blur(13px);
+  border-radius: 1rem;
+}
+
+.home {
+  font-family: "Silkscreen", cursive;
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+}
+
+
+
+.filters {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+
+}
+
+.bars {
+  width: 100%;
+}
+
+.paging {
+  margin-left: 8em;
+  margin-top: 2.7em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  display: flex;
+  right: 0%;
+  left: 0%;
+  min-width: auto;
+  justify-content: space-around;
+  
+}
+ 
+.all {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15em;
+  min-height: 100vh;
+}
+
+.pageNumberTop {
+  margin-top: 2.5em;
+  margin-left: 10.5em;
+  color: white;
+  text-shadow: 2px 2px 4px #ff0404;
+  font-size: 30px;
+}
+
+.pageNumberButton {
+  bottom: 0%;
+}
+
+.font {
+  font-family: "Silkscreen", cursive;
+  cursor: pointer;
+}
+.numer{
+  display: flex;
+  justify-content: space-between;
+}

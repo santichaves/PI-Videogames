@@ -1,0 +1,45 @@
+
+  
+  .div {
+    border: 1px solid black ;
+    color: rgb(84, 3, 247);
+    height: 2em;
+    width: 11em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 0.125em;
+    border-radius: 0.5em;
+  }
+  
+  .link {
+    text-decoration: none;
+  }
+  
+  .img {
+    display: initial;
+    justify-content: end;
+    width: 6em;
+    height: 5em;
+  }
+  
+  .logo {
+    z-index: 99;
+    position: fixed;
+    top: 1;
+    right: 0%;
+    padding-right: 2.5rem;
+    color: aliceblue;
+    font-family: "Silkscreen", cursive;
+    height: 2em;
+  }
+  .container{
+    width: 100vw;
+    height:2em;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    cursor: pointer;
+  }
+  
+  

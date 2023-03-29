@@ -1,0 +1,31 @@
+.img{   
+    
+    width: 280px;
+    height: 180px;
+    border-radius: 1rem;
+    border: 1px solid black;
+}
+
+.container{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    border: 2px solid black;
+    width: 280px;
+    height: 300px;
+    padding-top: 1rem;
+    backdrop-filter: blur(13px);
+    border-radius: 1rem;
+}
+
+.detail{
+    text-decoration: none;
+    text-transform: none;
+    text-align: center;
+    background-color: rgb(37, 168, 164);
+    font-size: medium;
+    border: 2px solid black;
+    border-radius: 1rem;
+    
+}

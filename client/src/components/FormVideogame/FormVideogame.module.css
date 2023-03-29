@@ -1,0 +1,65 @@
+.form {
+    background-color: rgba(107, 106, 175, 0.176);
+    display: grid;
+    place-content: center;
+    align-content: stretch;
+    justify-content: stretch;
+    gap: 0.5em;
+    width: auto;
+    height: auto;
+    padding: 2em;
+    border-style: solid;
+    border-radius: 1em;
+    backdrop-filter: blur(5px);
+  }
+  
+  .page {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1em;
+    font-family: 'Press Start 2P', cursive;
+    background-image: url("https://i.pinimg.com/564x/50/0e/fc/500efc1e5de41cba7b26d0236d70b34c.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+  }
+  
+  .asterisco {
+    color: red;
+  }
+  
+  .form {
+    color: rgb(3, 19, 164);
+    border: none;
+    width: 32%;
+    height: 55%;
+  }
+  
+  .page input {
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.834);
+  }
+  
+  .enviar {
+    border-radius: 10px;
+    font-family: "Silkscreen", cursive;
+    font-size: large;
+    background-color: rgba(228, 70, 7, 0.995) !important;
+    color: azure;
+  }
+  
+  .select {
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.834);
+  }
+  
+  .textDescription {
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.834);
+  }
+  
